@@ -9,11 +9,5 @@
         </picture>
       </a>
 	</div>
-	
-	<div class="header-right">
-	  <button title="MenuMain" class="header-link header-menu-toggle open-sticky content_center mobile-only">
-        <?php require ($_SERVER['TRIPOD'].'img/icon/menu.svg')?>
-      </button>
-	</div>
   </span>
 </header>

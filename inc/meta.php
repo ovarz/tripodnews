@@ -14,9 +14,8 @@
 <title>Tripodnews</title>
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 
-<link rel="preload" href="fonts/4UaOrEtFpBISc36j.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0pg.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="css/tiny-slider.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="img/logo.webp" as="image">
@@ -37,14 +36,13 @@
 <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>');</script>
 <script src="js/tiny-slider.js"></script>
 <script async>
-$("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
-  $("script").each(function(){
-    var get_script = $(this).attr("rancak-hold");
-    $(this).attr('src', get_script);
-  })
-});
+  $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
+    $("script").each(function(){
+      var get_script = $(this).attr("rancak-hold");
+      $(this).attr('src', get_script);
+    })
+  });
 </script>
-
 <link rel="stylesheet" type="text/css" href="css/tiny-slider.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">

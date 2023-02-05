@@ -4,7 +4,13 @@
 
 header{padding:var(--size-4) 0;}
 header .width-max{align-items:center;}
-.header-logo img{height:36px;}
+.header-logo img{height:var(--size-5);}
+
+
+
+.menu-main .width-max, .menu-link{padding:0 var(--size-2);}
+.menu-main .width-max{display:flex;}
+.menu-link{width:100%;}
   
   
 

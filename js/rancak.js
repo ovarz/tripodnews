@@ -79,6 +79,17 @@ function sticky_column(){
 
 
 
+function sticky_menu(){
+  const stickyElm = document.querySelector('menu')
+  const observer = new IntersectionObserver( 
+    ([e]) => e.target.classList.toggle('isSticky', e.intersectionRatio < 1),
+    {threshold: [1]}
+  );
+  observer.observe(stickyElm)
+};
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
@@ -86,4 +97,5 @@ $(document).ready(function(){
   open_sticky();
   close_menu();
   sticky_column();
+  sticky_menu();
 });
