@@ -23,5 +23,10 @@ header .width-max{align-items:center;}
 
 .column-big .content-thumb-frame:before{padding-top:56.25%;}
 .column-big .content-info-title h2{font-size:17px;}
-
 .column-big .default-box{--left-size:233px; grid-gap:var(--size-4);}
+
+
+
+.channel-widget-box{grid-template-columns:1fr 1fr;}
+.channel-widget-box .content-list-container .content-info-title h2{font-size:var(--default-fontsize);}
+.channel-widget-big .content-box, .channel-widget-big .content-thumb-frame{height:100%;}

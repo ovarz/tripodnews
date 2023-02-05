@@ -7,6 +7,7 @@
   --color-text-3:#2ba6d8;
   --color-text-4:#414042;
   --color-text-5:#78c2c5;
+  --color-text-6:#000000;
   --color-fb:#1877f2;
   --color-ig:#C13584;
   --color-tw:#00acec;
@@ -63,8 +64,17 @@ z-index:calc(var(--max-zindex) - 10000); width:40px; height:40px; background-col
 .content-thumb-frame:hover{opacity:var(--hover-opacity);}
 .content-info-misc{fill:var(--color-text-1);}
 .content-info-misc > *{border-color:rgb(var(--color-border-dark) / 13%);}
-.content-info-misc a{color:var(--color-text-5);}
+.content-info-misc a{color:var(--color-text-3);}
 .content-info-misc a:hover{color:var(--color-text-2);}
+
+
+
+.channel-widget-box .content-list-container{border-color:rgb(var(--color-border-dark) / 13%); border-radius:var(--rounded-1);}
+.channel-widget-big .content-thumb-frame{background-color:var(--color-text-6);}
+.channel-widget-big .content-thumb-frame img{opacity:0.77;}
+.channel-widget-big .content-info{text-shadow:5px 5px 13px #000;}
+.channel-widget-big .content-info-title, .channel-widget-big .content-info-misc a{color:var(--bg-2);}
+.channel-widget-big .content-info-misc{color:var(--bg-1);}
 
 
 
