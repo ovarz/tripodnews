@@ -21,4 +21,7 @@ header .width-max{align-items:center;}
 
 
 
-.{}
+.column-big .content-thumb-frame:before{padding-top:56.25%;}
+.column-big .content-info-title h2{font-size:17px;}
+
+.column-big .default-box{--left-size:233px; grid-gap:var(--size-4);}

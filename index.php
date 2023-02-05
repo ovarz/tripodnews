@@ -24,7 +24,11 @@
 			  <div class="section-title-name">Terkini</div>
 			</div>
 		    <div class="content-list-container">
-              tessss
+			  <?php for ($i=1; $i <= 10 ; $i++) { ?>
+			    <?php $box_layout='default'; $show_channel='yes'; $show_date='yes'; 
+				$image_size='default'; $channel_link='news';
+				require ($_SERVER['TRIPOD'].'module/content-list.php') ?>
+			  <?php } ?>
 			</div>
 		  </section>
 		  
@@ -43,7 +47,39 @@
 			  <div class="section-title-name">Terpopuler</div>
 			</div>
 		    <div class="content-list-container">
-              tessss
+			  <?php for ($i=1; $i <= 5 ; $i++) { ?>
+			    <?php $box_layout='order'; $show_channel='yes'; $show_date='yes'; 
+				$image_size='default'; $channel_link='news';
+				require ($_SERVER['TRIPOD'].'module/content-list.php') ?>
+			  <?php } ?>
+			</div>
+		  </section>
+		
+		
+		
+		  <section aria-label="Tag Terpopuler" class="section-container tag-sidebar">
+		    <div class="section-title">
+			  <div class="section-title-name">Tag Terpopuler</div>
+			</div>
+		    <div class="tag-sidebar-container">
+			  <?php for ($i=1; $i <= 5 ; $i++) { ?>
+			    <?php require ($_SERVER['TRIPOD'].'module/tag-list.php') ?>
+			  <?php } ?>
+			</div>
+		  </section>
+		
+		
+		
+		  <section aria-label="Pilihan Redaksi" class="section-container content-list">
+		    <div class="section-title">
+			  <div class="section-title-name">Pilihan Redaksi</div>
+			</div>
+		    <div class="content-list-container">
+			  <?php for ($i=1; $i <= 5 ; $i++) { ?>
+			    <?php $box_layout='default'; $show_channel='yes'; $show_date='yes'; 
+				$image_size='default'; $channel_link='news';
+				require ($_SERVER['TRIPOD'].'module/content-list.php') ?>
+			  <?php } ?>
 			</div>
 		  </section>
 		
