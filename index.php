@@ -83,9 +83,9 @@
       <div class="column-right column-small">
         <div class="column-container column-sticky">
 		
-		  <section aria-label="Terpopuler" class="section-container content-list">
+		  <section aria-label="Berita Terpopuler" class="section-container content-list">
 		    <div class="section-title">
-			  <div class="section-title-name">Terpopuler</div>
+			  <div class="section-title-name">Berita Terpopuler</div>
 			</div>
 			
 		    <div class="content-list-container">
