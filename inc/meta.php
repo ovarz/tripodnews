@@ -16,25 +16,20 @@
 
 <link rel="preload" href="fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0pg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="css/tiny-slider.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="img/logo.webp" as="image">
 <link rel="preload" href="img/logo.png" as="image">
-<link rel="preload" href="img/logo-rodanesia.png" as="image">
-<link rel="preload" href="img/logo-watchis.png" as="image">
 <?php if($page == 'detail') { ?>
   <link rel="preload" href="img/sample/minisample-1.jpg" as="image">
   <link rel="preload" href="css/detail.css?<?php echo $anticache; ?>" as="style">
 <?php } ?>
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-<link rel="preload" as="script" href="js/tiny-slider.js">
 
 <meta property="fb:app_id" content="221947151281666" />
 
 <style><?php require ($_SERVER['TRIPOD'].'css/font.css')?></style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>');</script>
-<script src="js/tiny-slider.js"></script>
 <script async>
   $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
     $("script").each(function(){
@@ -48,6 +43,12 @@
 <link rel="stylesheet" type="text/css" href="css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
 <?php if($page == 'detail') { ?>
   <link rel="stylesheet" type="text/css" href="css/detail.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+<?php if($slideshow == 'yes') { ?>
+  <link rel="preload" href="css/tiny-slider.css" as="style">
+  <link rel="preload" as="script" href="js/tiny-slider.js">
+  <link rel="stylesheet" type="text/css" href="css/tiny-slider.css"/>
+  <script src="js/tiny-slider.js"></script>
 <?php } ?>
 </head>
 <body>

@@ -1,0 +1,35 @@
+.headline{position:relative;}
+.headline .content-box{grid-template-columns:1fr;}
+.headline .content-thumb-frame:before{padding-top:56.25%; position:relative; z-index:1000;
+background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 34%, rgb(var(--color-border-dark) / 89%) 100%);}
+.headline .content-info{position:absolute; z-index:2000; bottom:0; left:0; width:100%; padding:var(--size-4); text-shadow:5px 5px 13px #000;}
+.headline .content-info-title, .headline .content-info-misc{color:var(--bg-2);}
+.headline .content-info-misc a{color:var(--color-text-5);}
+.headline .content-info-title:hover, .headline .content-info-misc a:hover{color:var(--color-text-3);}
+
+.headline .tns-controls button{z-index:1000; width:21px; background-size:auto 21px; filter:invert(1);}
+.headline .tns-controls button[data-controls="prev"]{left:0; background-image:url("img/icon/prev.svg");}
+.headline .tns-controls button[data-controls="next"]{right:0; background-image:url("img/icon/next.svg");}
+.headline .tns-controls button:hover{opacity:var(--hover-opacity);}
+.headline .tns-nav{display:flex; justify-content:center; margin-top:var(--size-3);}
+.headline .tns-nav button{width:var(--size-3); height:var(--size-3); background-color:var(--color-text-1); margin:0 var(--size-2); border-radius:50%;}
+.headline .tns-nav button:hover{background-color:var(--color-text-3);}
+.headline .tns-nav button.tns-nav-active{background-color:var(--color-text-5) !important;}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  .headline{margin-top:calc(var(--size-4) * -1);}
+  .headline .content-thumb-frame{border-radius:0;}
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+  .headline .content-info-title h2{font-size:24px;}
+  .headline .tns-controls button{width:34px;}
+}

@@ -67,10 +67,11 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
 .content-info-misc > *{border-color:rgb(var(--color-border-dark) / 13%);}
 .content-info-misc a{color:var(--color-text-3);}
 .content-info-misc a:hover{color:var(--color-text-2);}
+.content-order-box{font-weight:bold;}
 
 
 
-.channel-widget-box .content-list-container{border-color:rgb(var(--color-border-dark) / 13%); border-radius:var(--rounded-1);}
+.channel-widget-box .content-list-container{border-color:rgb(var(--color-border-dark) / 8%); background-color:var(--bg-2); border-radius:var(--rounded-1);}
 .channel-widget-big .content-thumb-frame{background-color:var(--color-text-6);}
 .channel-widget-big .content-thumb-frame img{opacity:0.77;}
 .channel-widget-big .content-info{text-shadow:5px 5px 13px #000;}

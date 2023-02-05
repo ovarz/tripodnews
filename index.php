@@ -1,6 +1,7 @@
 <?php 
   $page='home';
   $channel='home';
+  $slideshow='yes';
   $search_page='cari/'; 
   require ('inc/base.php')
 ?>
@@ -18,6 +19,10 @@
 	
 	  <div class="column-left column-big">
 	    <div class="column-container">
+		
+          <?php $show_channel='yes'; $channel_link='news'; $slide_number='5'; require ($_SERVER['TRIPOD'].'module/headline.php') ?>
+				
+				
 		
 		  <section aria-label="Terkini" class="section-container content-list">
 		    <div class="section-title">
