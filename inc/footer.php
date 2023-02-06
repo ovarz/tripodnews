@@ -2,7 +2,7 @@
   <span class="width-max">
     <div class="footer-main">
 	  <div class="footer-logo flex_ori thumb-loading">
-	    <img alt="Logo Tripodnews" class="lazyload" data-original="img/logo.png" />
+	    <img alt="Logo Tripodnews" class="lazyload" data-original="img/logo.png?<?php echo $anticache; ?>" />
 	  </div>
 	  <div class="footer-socmed">
 	    <div class="footer-socmed-label">Connect with us</div>
