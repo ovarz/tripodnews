@@ -1,0 +1,6 @@
+.mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
+
+
+
+nav{display:flex; justify-content:flex-end;}
+.nav-button{margin-left:var(--size-5);}
