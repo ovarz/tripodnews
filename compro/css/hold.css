@@ -1,6 +1,7 @@
 :root, :before, :after{
   --bg-2:#FFFFFF; 
   --bg-3:#F0F0F0;
+  --bg-4:43 31 87;
   --color-border-dark:0 0 0;
   --color-border-light:255 255 255;
   --color-text-1:#757575; 
@@ -18,7 +19,7 @@
   --rounded-1:var(--size-1);
   --hover-opacity:0.55;
   --transition-default:all 0.34s;
-  --shadow-default:0 2px 10px rgb(0 0 0 / 25%);
+  --shadow-default:7px 7px 5px rgb(0 0 0 / 75%);
   --shadow-neumorp:-2px -2px 4px rgba(255,255,255,.2), 2px 2px 12px rgba(0,0,0,.2);
   --shadow-inset:inset -2px -2px 4px rgba(255,255,255,.2), inset 2px 2px 12px rgba(0,0,0,.2);
 }
@@ -53,7 +54,7 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
 
 
 
-.nav-button{background-color:var(--color-text-3); color:var(--bg-2); box-shadow:var(--shadow-neumorp);}
+.nav-button{background-color:var(--color-text-3); color:var(--bg-2); box-shadow:var(--shadow-default);}
 .nav-button:hover{background-color:var(--color-text-4); color:var(--bg-2);}
 .nav-button-frame{background-color:var(--color-text-4);}
 .nav-curr{background-color:var(--color-text-4);}
@@ -61,10 +62,18 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
 
 
 
+.home-bg:after{background-color:rgb(var(--bg-4) / 55%);}
+
+
+
+.client-bg{background-color:#E2E3E4;}
+
+
+
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
-  
+  .client-bg img{object-fit:contain; object-position:bottom;}
 }
 
 

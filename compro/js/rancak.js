@@ -26,8 +26,21 @@ function back_to_top(){
 
 
 
+function navtab(){
+  "use strict";
+  $('.nav-button').click(function(){
+	var get_data = $(this).attr('id');
+	$(this).addClass('nav-curr');
+	$('.nav-button').not(this).removeClass('nav-curr');
+	$('.rancak-container').load('page/'+ get_data +'.php');
+  });	
+};
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
   back_to_top();
+  navtab();
 });

@@ -17,7 +17,6 @@
 <link rel="preload" href="fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0pg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
-<link rel="preload" href="img/logo.webp" as="image">
 <link rel="preload" href="img/logo.png" as="image">
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
 
