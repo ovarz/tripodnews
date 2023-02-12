@@ -1,15 +1,15 @@
-<section class="section-container services-detail-container">
-  <div class="services-detail-left flex_ori thumb-loading">
+<section class="section-container halfpage-container">
+  <div class="halfpage-left flex_ori thumb-loading">
     <img alt="img_title" class="lazyload" data-original="img/services-pr.jpg"/>
   </div>
-  <div class="services-detail-right">
+  <div class="halfpage-right">
 	<div class="fancy-outside services-button">
 	  <div class="fancy-inside services-button-frame content_center">
 		<div class="fancy-word">PR<br/>Litigation</div>
 	  </div>
 	</div>
 	
-	<div class="sdr-content">
+	<div class="halfpage-content-box">
       <p>Media massa seringkali diandalkan oleh para pihak yang berperkara untuk menyampaikan versi mereka. Namun penggunaan Public Relations (PR) secara formal dalam perkara litigasi baru diterapkan di Amerika di awal tahun 1980-an. Di Indonesia, pemanfaatan PR sebagai bagian dari manajemen krisis dalam perkara litigasi masih tergolong baru, meski perkembangannya cukup pesat.</p>
 
       <p>Beberapa tahun terakhir, dalam sengketa-sengketa yang melibatkan perusahaan-perusahaan besar, selain jasa penasehat hukum, jasa PR sering dimanfaatkan, khususnya untuk mengelola opini publik terkait sengketa.</p>
