@@ -27,3 +27,5 @@
 	</div>
   </div>
 </section>
+
+<script>servicestab();</script>

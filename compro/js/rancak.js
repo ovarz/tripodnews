@@ -38,9 +38,20 @@ function navtab(){
 
 
 
+function servicestab(){
+  "use strict";
+  $('.services-button').click(function(){
+	var get_services = $(this).attr('id');
+	$('.rancak-container').load('page/services-'+ get_services +'.php');
+  });	
+};
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
   back_to_top();
   navtab();
+  servicestab();
 });

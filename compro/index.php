@@ -8,6 +8,6 @@
 <?php require ($_SERVER['TRIPOD'].'inc/meta.php')?>
 <?php require ($_SERVER['TRIPOD'].'inc/nav.php')?>
 <div class="rancak-container">
-  <?php require ($_SERVER['TRIPOD'].'page/services.php')?>
+  <?php require ($_SERVER['TRIPOD'].'page/services-media.php')?>
 </div>
 <?php require ($_SERVER['TRIPOD'].'inc/base-bottom.php')?>

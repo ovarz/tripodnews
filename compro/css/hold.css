@@ -79,9 +79,18 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
 .services-logo{width:21%; max-width:210px;}
 .services-logo:before{padding-top:222.26%;}
 .services-right{display:grid; grid-gap:var(--size-4);}
-.services-button{background-color:var(--color-text-3); color:var(--color-text-2); box-shadow:var(--shadow-default);}
+.services-button{background-color:var(--color-text-3); color:var(--color-text-4); box-shadow:var(--shadow-default); font-weight:900;}
 .services-button:hover{background-color:var(--bg-2);}
 .services-button-frame{background-color:var(--bg-2); padding:var(--size-4) var(--size-6);}
+
+
+
+.services-detail-container{display:grid; padding:0;}
+.services-detail-right{padding:var(--size-5); position:relative; z-index:1000;}
+.services-detail-right .services-button *{text-align:center;}
+.services-detail-right .services-button .fancy-inside{line-height:150%; font-size:16px; padding:var(--size-3) var(--size-6);}
+.sdr-content{padding-top:var(--size-5);}
+.sdr-content p{font-size:16px; line-height:150%; margin-bottom:var(--size-4); color:var(--color-text-2);}
 
 
 
@@ -94,6 +103,12 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
   
   .services-button{width:100%;}
   .services-left{justify-content:center;}
+  
+  
+  
+  .services-detail-container{grid-auto-rows:min-content;}
+  .services-detail-left:before{padding-top:100%;}
+  .services-detail-right .services-button{margin-top:calc(var(--size-7) * -1);}
 }
 
 
@@ -104,4 +119,12 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
   .services-content{grid-template-columns:1fr 377px; width:100%; padding:var(--size-7);}
   .services-logo{width:50%;} 
   .services-right{grid-auto-rows:min-content; grid-gap:var(--size-5); align-content:center;}
+  
+  
+  
+  .services-detail-container{grid-template-columns:repeat(2,1fr);}
+  .services-detail-left{height:100%;}
+  .services-detail-right{padding-top:calc(var(--size-7) + var(--size-5));}
+  .services-detail-right .services-button{position:relative; left:-233px; display:inline-flex;}
+  .services-detail-right .services-button .fancy-inside{padding:var(--size-3) var(--size-7);}
 }
